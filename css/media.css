@@ -1,0 +1,197 @@
+
+@media (max-width: 1450px) {
+  .price-tags {
+      flex-direction: column;
+      
+  }
+  .price-tag {
+      width: 40%;
+      margin: 2rem auto;
+  }
+}
+
+@media (max-width: 991px) {
+    .price-tag {
+        width: 60%;
+        margin: 2rem auto;
+    }
+    html {
+        font-size: 8px;
+    }
+    .call-to-action {
+        height: 12vh;
+    }
+    .product__info {
+        font-size: 15px;
+    }
+
+    .main-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .price-tag {
+        width: 80%;
+        margin: 2rem auto;
+    }
+    .visible-lg {
+        display: none
+    }
+    .m-menu-link {
+        display: block;
+        margin-right: 35px;
+        font-size: 4rem;
+    }
+    .product__info {
+        font-size: 9px;
+    }
+
+    .adress_es {
+        margin-right: 1rem;;
+        padding: 2rem 0 2rem 1rem;
+    }
+    
+    .wrap {
+        padding: 5rem 2rem;
+    }
+
+    .main-text span {
+        font-size: 14px;
+    }
+    .main-text h1 {
+        font-size: 35px;
+    }
+
+    .arrow-down {
+        width: 45px;
+        height: 43px;
+    }
+
+    .arrow_down {
+        width: 43px;
+        height: 41px;
+    }
+}
+
+@media (max-width: 420px) {
+    .price-tag {
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .call-to-action {
+        flex-direction: column ;
+        height: 67vh;
+    }
+    .adress_es {
+        text-align: center;
+        font-size: 13px;
+        word-spacing: 2px;
+        padding: 0;
+    }
+    .main-text h1 {
+        font-size: 26px;
+    }
+    .price-btn {
+        margin: 4rem;
+        font-size: 1.5rem;
+    }
+    .price-tag p {
+        font-size: 17px;
+    }
+
+    .logo {
+        left: 0;
+    }
+    
+    .social {
+        width: 100%;
+        padding: 0 30px 0 30px;
+        margin: 0;
+    }
+
+    .product__info {
+        font-size: 9px;
+    }
+
+    .table-header h2 {
+        font-size: 3.5em;
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+
+    .product__info {
+        font-size: 8px;
+    }
+
+    .price-tag p {
+        font-size: 14px;
+    }
+
+    .main-text h1 {
+        font-size: 22px;
+    }
+
+    .main-text span {
+        font-size: 11px;
+    }
+
+    .main-text p {
+        font-size: 15px;
+    }
+
+    .table-header h2 {
+        font-size: 2.7em;
+    }
+
+
+
+}
+
+@media (max-width: 250px) {
+
+    .product__info {
+        font-size: 7px;
+    }
+
+    .table-header h2 {
+        font-size: 2em;
+        margin: 15px;
+    }
+
+    .price-btn {
+        font-size: 1.1rem;
+    }
+
+    .price-tag p {
+        font-size: 10px;
+    }
+
+    .main-text span {
+        font-size: 9px;
+    }
+    .main-text h1 {
+        font-size: 13px;
+    }
+
+    .main-text p {
+        font-size: 10px;
+    }
+
+    .windows-logo {
+        width: 76px;
+        height: 60px;
+    }
+    .windows-logo_seven {
+        width: 100px;
+        height: 73px;
+    }
+    img {
+        width: 140px;
+        height: 100px;
+    }
+
+}
